@@ -1,0 +1,31 @@
+<suite name="Selenium TestNG Suite" parallel="tests" thread-count="5">
+
+    <test name="Selenium TestNG - 1">
+        <parameter name="browser" value="chrome" />
+        <parameter name="IPAddress" value="192.168.1.110" />
+        <parameter name="port" value="9595" />
+        <classes>
+            <class name="testsGrid.GridTest" />
+        </classes>
+    </test>
+    <test name="Selenium TestNG - 2">
+        <parameter name="browser" value="chrome" />
+         <parameter name="IPAddress" value="192.168.1.110" />
+        <parameter name="port" value="8585" />
+        <classes>
+            <class name="testsGrid.GridTest2" />
+        </classes>
+    </test>
+    
+     <test name="Selenium TestNG - 3">
+        <parameter name="browser" value="chrome" />
+         <parameter name="IPAddress" value="192.168.1.110" />
+        <parameter name="port" value="8588" />
+        <classes>
+            <class name="testsGrid.GridTest2" />
+        </classes>
+    </test>
+    
+    
+
+</suite>
